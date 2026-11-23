@@ -31,12 +31,20 @@ Only install the file that matches your Glyphs version.
 ## How to use
 
 1. Select one or more glyphs.
-2. Run **Script → Blurrr**.
-3. Adjust the sliders:
-   - **Blur** – how strongly the outlines are softened
-   - **Threshold** – where the blurred shape gets cut back into a clean outline
-   - **Grunge** – adds rough, irregular texture to the edges
-4. Apply.
+2. Run **Script → GMS Blurrr**. The glyphs update live as you move the sliders.
+3. **Shape**
+   - **Blur** – how strongly the outlines are softened (sharp ↔ soft)
+   - **Threshold** – where the blurred shape is cut back into an outline (bold ↔ light)
+4. **Grunge** – tick the checkbox to add rough, irregular edges
+   - **Strength** – how much texture is added (clean ↔ grungy)
+   - **Grain** – size of the texture (fine ↔ rough)
+   - **Shuffle** – try a new random variation
+5. **Output** – controls how the result is turned back into clean Bézier paths
+   - **Smoothness** – exact (follows every detail, more nodes) ↔ smooth (fewer nodes, softer curves)
+   - **Grid** – resolution of the calculation: hi-res (more detail, slower) ↔ lo-res (faster, coarser)
+   
+   The status line at the bottom shows how many paths and nodes the result has.
+6. Click **Apply** to keep the result, or **Cancel** to restore the original outlines.
 
 Tip: Work on a copy of your glyphs or a duplicate layer, so you can always go back to the original outlines.
 
