@@ -41,7 +41,7 @@ Only install the file that matches your Glyphs version.
    - **Shuffle** – try a new random variation
 5. **Output** – controls how the result is turned back into clean Bézier paths
    - **Smoothness** – exact (follows every detail, more nodes) ↔ smooth (fewer nodes, softer curves)
-   - **Grid** – resolution of the calculation: hi-res (more detail, slower) ↔ lo-res (faster, coarser)
+   - **Grid** – resolution of the calculation: hi-res (more detail, slower) ↔ lo-res (coarser, faster)
    
    The status line at the bottom shows how many paths and nodes the result has.
 6. Click **Apply** to keep the result, or **Cancel** to restore the original outlines.
